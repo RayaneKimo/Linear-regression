@@ -19,3 +19,10 @@ Il existe deux utilisations principales pour l’analyse de régression multiple
 La régression multiple suppose qu’il n’y a pas de relation forte entre chaque variable indépendante. Il suppose également qu’il existe une corrélation entre chaque variable indépendante et la variable dépendante unique. Chacune de ces relations est pondérée pour garantir que des variables indépendantes plus influentes déterminent la valeur dépendante en ajoutant un coefficient de régression unique à chaque variable indépendante.
 
 Une entreprise peut non seulement utiliser l’analyse de régression pour comprendre certaines situations telles que la baisse des appels au service client, mais également pour faire des prévisions prospectives telles que les chiffres de vente à l’avenir.
+
+# L'objectif du travail : 
+L’objectif de du travail est de construire un modèle de Regression (linéaire) (simple et multiple) qui permet de prédire le prix de vente d’une nouvelle voiture en utilisant une base de données du marché des automobiles chinoises. 
+Les trois ingrédients d’un algorithme d’apprentissage supervisé sont :
+* l’espace des hypothèses (dans notre cas c’est l’espace des droites)
+* la fonction de coût (le coût quadratique)
+* l’algorithme d’optimisation qui permet de trouver l’hypothèse optimale au sens de la fonction de coût sur les données (minimisation du risque empirique), donc la descente de gradient.
